@@ -1,0 +1,27 @@
+/* Hojas de estilos basicos */
+
+* {    
+    box-sizing: border-box; /* incluir bordes en el ancho */
+    font-family: 'Roboto Mono', monospace , sans-serif !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* img {
+    height: 30vh;
+} */
+
+
+

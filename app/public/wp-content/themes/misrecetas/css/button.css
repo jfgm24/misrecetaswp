@@ -1,0 +1,15 @@
+.btn {
+    padding: .3em .6em;
+    border: none;
+}
+
+.btn.go {
+    background-color: rgb(47, 152, 213);
+    color: white;
+}
+
+.btn.go:hover {
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web de mis recetas</title>
+    <meta name="description" content="Pagina de mis recetas">
+    <meta name="keywords" content="recetas, gastronomia, comidas, sabrosa">
+    <link rel="icon" href="images/identity/ico_Food.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header id="header" class="block-center-row mb-2">
+            <img src="images/identity/MisRecetas.png" alt="Mis recetas">
+        </header>
+        <nav id="nav-main" class="block-center-row txt-18 txt-bold mb-3">
+            <a href="index.html">Inicio</a>
+            <a href="" class="separator-pad">|</a>
+            <a href="recetas.html">Recetas</a>
+            <a href="" class="separator-pad">|</a>
+            <span>Contactar</span>
+        </nav>
+       
+        <main>
+            <form class="block-center-row txt-18">
+                <div class="col-lg-5 col-md-8 col-sm-12">
+                    <div class="grid mb-05">
+                        <div style="text-align: right" class="col-3">
+                            <label for="name">Nombre:</label>
+                        </div>
+                        <div class="col-9">
+                            <input id="name" class="input-basic" type="text">
+                        </div>                                                    
+                    </div>
+                    <div class="grid mb-05">
+                        <div style="text-align: right" class="col-3">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="col-9">
+                            <input id="email" class="input-basic" type="text">
+                        </div>                                                    
+                    </div>
+                    <div class="grid mb-05">
+                        <div style="text-align: right" class="col-3">
+                            <label for="message">Mensaje:</label>
+                        </div>
+                        <div class="col-9">
+                            <textarea rows="6" id="message" class="input-basic"></textarea>
+
+                        </div>                                                    
+                    </div>
+                    <div class="block-center-row">
+                        <button class="btn go txt-18 rounded">Enviar mensaje</button>
+
+                    </div>
+                    
+                </div>
+                
+                
+
+
+            </form>
+        </main>
+        
+        <hr>
+        <footer id="footer" class="block-center-row row-full txt-24 txt-ligth-bold txt-ital pad-1 mb-2">
+            <div>misrecetas.com - 2021 <img class="img-CR" src="images/identity/copyright.png" alt="Copyright">
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

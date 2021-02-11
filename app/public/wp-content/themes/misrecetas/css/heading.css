@@ -1,0 +1,11 @@
+/* Titulos y estilos */
+
+.head-strong {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.head-strong-ligth {
+    font-weight: 600;
+    text-transform: uppercase;
+}

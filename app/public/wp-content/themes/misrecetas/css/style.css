@@ -1,0 +1,15 @@
+/* css principal de Mis Recetas */
+@import 'reset.css';
+@import 'basic.css';
+@import 'grid-12.css';
+@import 'layout.css';
+@import 'text.css';
+@import 'image.css';
+@import 'header.css';
+@import 'heading.css';
+@import 'utils.css';
+@import 'link.css';
+@import 'input.css';
+@import 'footer.css';
+@import 'button.css';
+
