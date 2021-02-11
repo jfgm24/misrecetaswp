@@ -6,6 +6,18 @@
     color:grey ;
 }
 
+.nav-main > ul {
+    display: flex;
+}
+
+.nav-main > ul > li {
+    padding: 0 1em
+}
+
+.nav-main > ul > li:last-child {
+    padding: 0 0em
+}
+
 .link-receta {
     font-size: 1.2em;
     color:rgb(43, 29, 175);
