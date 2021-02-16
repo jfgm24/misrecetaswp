@@ -5,6 +5,9 @@ if (!function_exists('my_themes_setup')):
         
         // Añadimos title de forma automatica
         add_theme_support('title-tag');
+
+        // añadimos imagen destacada / featured image
+        add_theme_support('post-thumbnails');
         
         // Soporte para menus        
         register_nav_menus(

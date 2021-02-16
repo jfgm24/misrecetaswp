@@ -1,9 +1,10 @@
-#nav-main > a:hover {
+#nav-main > ul > li > a:hover {
     text-decoration: underline;
 }
 
-#nav-main > span {
+#nav-main >  ul > li > span {
     color:grey ;
+    margin: 0 .5em;
 }
 
 .nav-main > ul {
@@ -11,11 +12,20 @@
 }
 
 .nav-main > ul > li {
-    padding: 0 1em
+    padding: 0 0em;
 }
 
 .nav-main > ul > li:last-child {
-    padding: 0 0em
+    padding: 0 0em;
+
+}
+.nav-main > ul > li:last-child span {
+        display: none;
+}
+.nav-main .current-menu-item  a {
+    pointer-events: none;
+    color: grey;
+    text-decoration: none;
 }
 
 .link-receta {

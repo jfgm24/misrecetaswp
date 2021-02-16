@@ -28,6 +28,7 @@
                     'container' => 'nav',
                     'container_class' => 'nav-main block-center-row txt- 18 txt-bold  mb-2',
                     'container_id' => 'nav-main',
+                    'after' => '<span>|</span>'
             )
         );
         ?>
