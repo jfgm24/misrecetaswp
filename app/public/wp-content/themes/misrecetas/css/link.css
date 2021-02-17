@@ -40,3 +40,24 @@
     text-decoration: underline;
 }
 
+
+
+.nav-page .page-numbers {
+    margin: 0 .5em;
+} 
+.nav-page span.separator {
+    margin-left: .5em;    
+    color: rgb(174, 174, 179);
+
+}
+.nav-page a:nth-last-child(2) span {
+    display: none;
+}
+
+.nav-page span.page-numbers {    
+    color: grey;
+}
+
+.nav-page a:hover {
+    text-decoration: underline;
+}

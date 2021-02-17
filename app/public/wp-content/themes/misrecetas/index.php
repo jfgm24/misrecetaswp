@@ -5,7 +5,7 @@
 
     <?php
     $args = array(
-        'posts_per_page' => 4,
+        'posts_per_page' => 6,
         'post_status' => 'publish',
         'post_type' => 'post',
         //'paged' => $paged
@@ -22,8 +22,10 @@
                 <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 
                     <div class="col-lg-6 col-md-6 mb-2">
+                        <div class=mb-05>
+                            <a href="<?php the_permalink(); ?>"><img class="img-lg bg-light pad-1 rounded" src="<?php echo get_the_post_thumbnail_url(false, 'medium_large'); ?>" alt="<?php the_title(); ?>"></a>
+                        </div>
                         <h2 class="head-strong-ligth mb-1"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                        <a href="<?php the_permalink(); ?>"><img class="img-lg bg-light pad-1 rounded" src="<?php echo get_the_post_thumbnail_url(false, 'medium_large'); ?>" alt="<?php the_title(); ?>"></a>
                     </div>
 
                 <?php endwhile;
@@ -37,7 +39,7 @@
     <aside class="col-lg-4 col-md-4 col-sm-12">
 
         <h2 class="head-strong-ligth  txt-center mb-1">Menu del día</h2>
-        <div class="bg-light pad-1 rounded">
+        <div class="border pad-1 rounded">
             <div class="grip">
 
                 <?php $menu_del_dia = get_field('menu_del_dia', get_page_by_path('menu-del-dia')->ID); ?>
@@ -45,8 +47,9 @@
                     <?php foreach ($menu_del_dia as $post) : setup_postdata($post); ?>
 
                         <div class="col-12 mb-1 pad-1">
-                            <img class="img-md rounded" src="<?php echo get_the_post_thumbnail_url(false, 'medium_large'); ?>" alt="<?php the_title(); ?>">
-                            <h3 class="txt-12 head-strong mb-05 txt-center"><?php the_category(); ?></h3>
+                            <h3 class="txt-11 head-strong mb-05 txt-center"><?php the_category(); ?></h3>
+                            <img class="img-sm rounded" src="<?php echo get_the_post_thumbnail_url(false, 'medium_large'); ?>" alt="<?php the_title(); ?>">
+                            <h3 class="txt-12 head-strong mb-05 txt-center"><?php the_title(); ?></h3>
                         </div>
 
                     <?php endforeach; ?>

@@ -56,3 +56,49 @@ Stack trace:
   thrown in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\functions.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "misrecetaswp.local", referrer: "http://misrecetaswp.local/wp-admin/options-general.php"
 2021/02/11 20:48:22 [error] 12312#9488: *966 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\header.php on line 29" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /?cache-buster=880 HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "misrecetaswp.local"
 2021/02/11 21:01:51 [error] 12312#9488: *1008 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected ''container_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\header.php on line 30" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /?cache-buster=880 HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "misrecetaswp.local"
+2021/02/16 16:49:24 [error] 9904#6392: *2897 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\index.php on line 1" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /wp-content/themes/misrecetas/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:10003", host: "misrecetaswp.local:10004", referrer: "http://misrecetaswp.local/"
+2021/02/16 17:04:31 [error] 9904#6392: *3001 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\index.php:43
+Stack trace:
+#0 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\JFGM\\D...')
+#2 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\index.php(17): require('C:\\Users\\JFGM\\D...')
+#3 {main}
+  thrown in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\index.php on line 43" while reading upstream, client: 127.0.0.1, server: , request: "GET /crema-catalana/ HTTP/1.0", upstream: "fastcgi://127.0.0.1:10003", host: "misrecetaswp.local", referrer: "http://misrecetaswp.local/"
+2021/02/17 16:27:40 [error] 10676#15120: *889 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function excerpt() in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\recetas.php:15
+Stack trace:
+#0 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\JFGM\\D...')
+#2 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\index.php(17): require('C:\\Users\\JFGM\\D...')
+#3 {main}
+  thrown in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\recetas.php on line 15" while reading upstream, client: 127.0.0.1, server: , request: "GET /recetas/ HTTP/1.0", upstream: "fastcgi://127.0.0.1:10003", host: "misrecetaswp.local", referrer: "http://misrecetaswp.local/"
+2021/02/17 16:32:27 [error] 10676#15120: *945 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\recetas.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /recetas/ HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "misrecetaswp.local", referrer: "http://misrecetaswp.local/"
+2021/02/17 19:57:47 [error] 3128#14868: *883 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function get_home_uri() in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\header.php:20
+Stack trace:
+#0 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template.php(676): load_template('C:\\Users\\JFGM\\D...', true, Array)
+#2 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\index.php(1): get_header()
+#4 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\JFGM\\D...')
+#5 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\JFGM\\D...')
+#6 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\index.ph in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\header.php on line 20" while reading upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "misrecetaswp.local", referrer: "http://misrecetaswp.local/contactar/page/2/"
+2021/02/17 19:59:11 [error] 3128#14868: *1084 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function get_home_uri() in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\header.php:20
+Stack trace:
+#0 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template.php(676): load_template('C:\\Users\\JFGM\\D...', true, Array)
+#2 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\index.php(1): get_header()
+#4 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\JFGM\\D...')
+#5 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\JFGM\\D...')
+#6 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\index.ph in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\header.php on line 20" while reading upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", upstream: "fastcgi://127.0.0.1:10003", host: "misrecetaswp.local", referrer: "http://misrecetaswp.local/contactar/"
+2021/02/17 19:59:16 [error] 3128#14868: *1108 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function get_home_uri() in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\header.php:20
+Stack trace:
+#0 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template.php(676): load_template('C:\\Users\\JFGM\\D...', true, Array)
+#2 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\index.php(1): get_header()
+#4 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\JFGM\\D...')
+#5 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\JFGM\\D...')
+#6 C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\index.ph in C:\Users\JFGM\Desktop\CursoVirenses\misrecetaswp\app\public\wp-content\themes\misrecetas\header.php on line 20" while reading upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "misrecetaswp.local", referrer: "http://misrecetaswp.local/contactar/"
